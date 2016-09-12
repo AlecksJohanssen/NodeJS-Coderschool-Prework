@@ -1,0 +1,15 @@
+{
+  "name": "prework1",
+  "version": "1.0.0",
+  "description": "Coderschool Prework",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Alecks Johanssen",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.74.0",
+    "yargs": "^3.32.0"
+  }
+}
