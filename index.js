@@ -31,10 +31,11 @@ let options = {
 }
     
   process.stdout.write('\n\n\n' + JSON.stringify(req.headers))
+  logStream.write('Request headers: ' + JSON.stringify(req.headers))
   req.pipe(logStream, {end: false})
-
   let downstreamResponse = req.pipe(request(options))
   process.stdout.write(JSON.stringify(downstreamResponse.headers))
   downstreamResponse.pipe(process.stdout)
   downstreamResponse.pipe(res)
+  
 }).listen(8001)
