@@ -20,7 +20,7 @@ Completed:
 Walkthrough Gif:
 [Add walkthrough.gif to the project root]
 
-![Video Walkthrough](walkthrough.gif)
+![Video Walkthrough](http://i.imgur.com/4uoPhOW.gif)
 
 Note: to embed the gif file, just check your gif file into your repo and update the name of the file above.
 
